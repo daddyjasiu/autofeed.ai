@@ -1,10 +1,19 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Loader2 } from "lucide-react";
 import { sendPubSubMessage } from "@/app/(dashboard)/actions";
+import { useState } from "react";
 
 export function UserHome() {
+  const [loading, setLoading] = useState(false);
+
+  const generateVideo = async () => {
+    setLoading(true);
+    await sendPubSubMessage("123456789");
+    setLoading(false);
+  };
+
   return (
     <main>
       <section className="py-20">
@@ -16,11 +25,21 @@ export function UserHome() {
               </h1>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <Button
+                  disabled={loading}
                   className="bg-white hover:bg-gray-100 text-black border border-gray-200 rounded-full text-lg px-8 py-4 inline-flex items-center justify-center"
-                  onClick={() => sendPubSubMessage("123456789")}
+                  onClick={generateVideo}
                 >
-                  Run a pub/sub function
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  {loading ? (
+                    <>
+                      <Loader2 className="animate-spin mr-2 h-4 w-4" />
+                      Loading...
+                    </>
+                  ) : (
+                    <>
+                      "Run a pub/sub function"
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </>
+                  )}
                 </Button>
               </div>
             </div>

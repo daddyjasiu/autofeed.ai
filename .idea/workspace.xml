@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5c14695-2dd5-4e5e-829a-2544afeeee03" name="Changes" comment="Added pubsub project id">
+      <change beforePath="$PROJECT_DIR$/app/(dashboard)/user-home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/user-home.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;daddyjasiu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/daddyjasiu/autofeed.ai.git&quot;,
+    &quot;accountId&quot;: &quot;addfec10-8817-4147-b587-57451bc7205d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2m986eRj3zwC9h9la2Qq77u53cc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.drizzle.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jansk/OneDrive/Documents/Repos/autofeed.ai/app/(dashboard)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\jansk\\OneDrive\\Documents\\Repos\\autofeed.ai\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Users\\jansk\\OneDrive\\Documents\\Repos\\autofeed.ai\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jansk\OneDrive\Documents\Repos\autofeed.ai\app\(dashboard)" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5c14695-2dd5-4e5e-829a-2544afeeee03" name="Changes" comment="" />
+      <created>1726477258633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726477258633</updated>
+      <workItem from="1726477260175" duration="7684000" />
+      <workItem from="1726663210024" duration="9476000" />
+      <workItem from="1726695580121" duration="2604000" />
+      <workItem from="1726757994724" duration="12755000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changed to env">
+      <option name="closed" value="true" />
+      <created>1726663981984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663981984</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactored project for autofeed">
+      <option name="closed" value="true" />
+      <created>1726698147817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726698147817</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dumb proofing for my bro">
+      <option name="closed" value="true" />
+      <created>1726698209296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726698209296</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added division between guest and user screens">
+      <option name="closed" value="true" />
+      <created>1726760739603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726760739603</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added pubsub project id">
+      <option name="closed" value="true" />
+      <created>1726766952402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726766952402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed to env" />
+    <MESSAGE value="Refactored project for autofeed" />
+    <MESSAGE value="Dumb proofing for my bro" />
+    <MESSAGE value="Added division between guest and user screens" />
+    <MESSAGE value="Added pubsub project id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pubsub project id" />
+  </component>
+</project>
