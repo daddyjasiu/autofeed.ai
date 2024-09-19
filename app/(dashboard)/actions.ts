@@ -2,7 +2,7 @@
 
 import { PubSub } from "@google-cloud/pubsub";
 
-const pubSubClient = new PubSub();
+const pubSubClient = new PubSub({ projectId: "autofeed-ai" });
 
 export async function sendPubSubMessage(taskId: string) {
   const dataBuffer = Buffer.from(taskId);
